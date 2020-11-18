@@ -24,8 +24,8 @@ contract YFIN_contract is ERC20Interface {
   mapping (address => mapping (address => uint256) ) internal allowed;
 
   constructor() public {
-    name = "yfi.name";
-    symbol = "YFIN";
+    name = "yfiBank";
+    symbol = "YFIB";
     decimals = 18;
     // 
      totalSupply = 60000* (10 ** 18);
